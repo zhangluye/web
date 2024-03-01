@@ -1,0 +1,406 @@
+html{
+    background-color: #f7fafa;
+}
+
+.courseDT{
+    width:100%;
+    height:400px;
+    background:linear-gradient(157deg,rgba(57,219,187,1) 0%,rgba(0,175,227,1) 100%);
+    margin-bottom: 260px;
+    position: relative;
+}
+.courseDT_upper{
+    text-align: center;
+}
+.courseDT_upper h2{
+    color: #FFF;
+    font-size: 48px;
+    padding: 70px 0 30px 0;
+}
+.courseDT_upper p{
+    color: #FFF;
+    font-size: 20px;
+}
+
+
+.courseDT_lower{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,60%);
+    bottom:0;
+    box-shadow:0px 2px 12px rgba(0,34,27,0.12);
+    padding: 40px 120px 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    /*align-content: center;*/
+}
+.courseDT_lower_left{
+    border-right: 1px solid #dfdfdf;
+    width: 320px;
+    text-align: center;
+
+}
+
+.courseDT_lower_left img{
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #ddd;
+
+}
+.courseDT_lower_left span{
+    display: block;
+    margin: 8px 0 2px;
+}
+.courseDT_lower_left h3{
+    font-size: 18px;
+    color:#333;
+
+}
+.courseDT_lower_right{
+    width: 620px;
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-content: center;*/
+}
+.courseDT_lower_right h2{
+    font-size: 32px;
+    /*text-align: center;*/
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom:15px;
+}
+.courseDT_lower_right h2:after{
+    position: absolute;
+    content: "";
+    width: 55px;
+    height: 8px;
+    background: url("../images/icon_10.png") no-repeat;
+    background-size: cover;
+    left: -70px;
+    top: 50%;
+    /*transform: translateY(-60%);*/
+}
+.courseDT_lower_right h2:before{
+    position: absolute;
+    content: "";
+    width: 55px;
+    height: 8px;
+    background: url("../images/icon_10.png") no-repeat;
+    background-size: cover;
+    right: -70px;
+    top: 50%;
+    transform: rotate(180deg);
+}
+.courseDT_lower_right p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #8b8b8b;
+    margin-top: 10px;
+    position: relative;
+}
+.courseDT_lower_right p:after{
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: #707070;
+    border-radius: 50%;
+    left: -18px;
+    top: 13px;
+}
+
+.courseDM_title{
+    text-align: center;
+    /*border: 1px solid red;*/
+    margin-bottom: 100px;
+}
+.courseDM_title dd{
+    display: inline-block;
+    margin: 0 30px;
+    cursor: pointer;
+}
+.courseDM_title dd span{
+    font-size: 20px;
+    color: #999;
+}
+.courseDM_title dd img{
+    vertical-align: bottom;
+}
+.courseDM_title img:nth-of-type(2){
+    display: none;
+}
+.titleActive span{
+    color: #02b490 !important;
+    position: relative;
+}
+.titleActive span:after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 40px;
+    background-color: #02b490;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.titleActive  img:nth-of-type(1){
+    display: none;
+}
+.titleActive  img:nth-of-type(2){
+    display: inline-block;
+}
+
+.courseDM_box{
+    margin-bottom: 120px;
+}
+.courseDetails{
+    background-color: #fff;
+    min-height: 900px;
+}
+
+
+
+.courseMenu{
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    padding-top: 15px;
+}
+.courseMenu li .icon-jiantouxia{
+    transition:all 0.5s;
+    display: inline-block;
+}
+.courseMenu .courseMenu_active .icon-jiantouxia{
+    transform: rotate(-180deg);
+
+}
+.courseMenu ul li{
+    line-height: 60px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.courseMenu ul li h3{
+    overflow: hidden;
+    clear: both;
+    cursor: pointer;
+}
+.courseMenu ul li h3 b{
+    font-size: 20px;
+    color:#333 ;
+    float: left;
+}
+.courseMenu ul li h3 i{
+    font-size: 22px;
+    color:#999;
+    float: right;
+}
+.courseMenu ul li dl{
+    padding: 0 40px;
+}
+.courseMenu ul li dd{
+    overflow: hidden;
+    clear: both;
+    /*border: 1px solid red;*/
+}
+.courseMenu ul li dd p{
+    font-size: 16px;
+    color:#666 ;
+    float: left;
+}
+.courseMenu ul li dd img{
+    float: right;
+    margin-top: 23px;
+}
+.courseMenu_end{
+    padding: 20px 0 40px 0;
+}
+.courseMenu_end p{
+    color: #999;
+    font-size: 18px;
+}
+.courseMenu ul li h3:hover b, .courseMenu ul li h3:hover i, .courseMenu ul li dd:hover p{
+    color: #02a886;
+}
+
+
+
+.courseTeacher{
+    width: 1000px;
+    margin: 0 auto;
+    box-shadow:0px 2px 12px rgba(0,34,27,0.12);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 50px 80px 50px 80px;
+}
+.courseTeacher h2{
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.courseTeacherM{
+    padding: 5px;
+    position: relative;
+}
+.courseTeacherM img{
+    width: 240px;
+    float: left;
+    box-shadow: 0px 0px 5px #ebebeb;
+    border-radius: 5px;
+}
+.courseTeacherM .courseTeacherR{
+    float: right;
+    width: 550px;
+    /*border: 1px solid red;*/
+
+}
+
+.courseTeacherR{
+    padding-bottom: 40px;
+}
+.courseTeacherRT{
+    margin: 30px 0 20px;
+}
+.courseTeacherRT h3{
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 10px;
+
+}
+.courseTeacherRT span{
+    display: inline-block;
+    color: #02B490;
+    font-size: 14px;
+    border: 1px solid #02B490;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.courseTeacherR p{
+    font-size: 16px;
+    color: #666;
+    line-height: 26px;
+}
+.courseTeacherRF{
+    position: absolute;
+    bottom: 5px;
+}
+.courseTeacherRF span{
+    font-size: 16px;
+    color: #666;
+}
+.courseTeacherRF a{
+    font-size: 16px;
+    color:#08B3E2;
+    margin-right: 15px;
+}
+.courseTeacherRF a:hover{
+    color: #08a5d0;
+}
+
+
+
+/* 
+.courseCommentL{
+    width:780px;
+    float: left;
+    background:#fff;
+    box-shadow:0px 2px 12px rgba(0,34,27,0.12);
+    border-radius:20px;
+    padding: 50px 40px;
+}
+.courseCommentL ul{
+    margin-bottom: 20px;
+    clear: both;
+    overflow: hidden;
+}
+.courseCommentL li{
+    clear: both;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+.courseCommentL img{
+    width:70px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    float: left;
+}
+.courseCommentL .courseCommentLM{
+    width:610px;
+    float: right;
+}
+.courseCommentLM h3{
+    font-size: 18px;
+    color:#333 ;
+    margin-bottom: 5px;
+}
+.courseCommentLM p{
+    font-size:16px ;
+    color: #666;
+    line-height:28px ;
+}
+.courseCommentLM div{
+    background-color:#F7F7F7 ;
+    margin-top: 15px;
+    padding: 15px;
+}
+.courseCommentLM div span{
+    font-size:14px ;
+    color:#666 ;
+    line-height:24px ;
+}
+.courseCommentLM div p{
+    font-size:14px ;
+    color:#666 ;
+    line-height:24px ;
+}
+.courseCommentR{
+    float: right;
+    width:380px;
+}
+.courseCommentR li{
+    background-color: #fff;
+    box-shadow:0px 4px 12px rgba(0,34,27,0.16);
+    margin-bottom: 25px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.courseCommentR li img{
+    width: 100%;
+}
+.courseCommentR li div{
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.courseCommentR li div h3{
+    font-size: 18px;
+    color:#333 ;
+    float: left;
+}
+.courseCommentR li:hover div h3{
+    color: #02b490;
+}
+.courseCommentR li div h3 i{
+    font-size: 18PX;
+    color: #999;
+    margin-left: 10px;
+}
+.courseCommentR li div b{
+    font-size: 16px;
+    color:#F80B12;
+    left: 24px;
+    float: right;
+}
+.courseCommentR li p{
+    font-size: 16px;
+    color: #666;
+    line-height: 24px;
+} */

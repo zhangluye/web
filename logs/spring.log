@@ -1,0 +1,54 @@
+2021-06-04 17:21:33.817  INFO 20336 --- [main] com.sanyau.repair.RepairApplication      : Starting RepairApplication using Java 11.0.5 on LAPTOP-SNMS0DNR with PID 20336 (G:\Desktop\repair-backEnd1\repair-backEnd1\target\classes started by Lenovo in G:\Desktop\repair-backEnd1)
+2021-06-04 17:21:33.825  INFO 20336 --- [main] com.sanyau.repair.RepairApplication      : No active profile set, falling back to default profiles: default
+2021-06-04 17:21:36.573  INFO 20336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (https) 8081 (http)
+2021-06-04 17:21:36.592  INFO 20336 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-04 17:21:36.592  INFO 20336 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-06-04 17:21:36.594  INFO 20336 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-06-04 17:21:36.594  INFO 20336 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-04 17:21:36.595  INFO 20336 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-04 17:21:36.598  INFO 20336 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-06-04 17:21:36.672  INFO 20336 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-04 17:21:36.673  INFO 20336 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2806 ms
+2021-06-04 17:21:38.336  INFO 20336 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-04 17:21:38.358  INFO 20336 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-04 17:21:38.551  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/login'] with []
+2021-06-04 17:21:38.551  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/logout'] with []
+2021-06-04 17:21:38.551  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/css/**'] with []
+2021-06-04 17:21:38.551  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2021-06-04 17:21:38.551  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/index.html'] with []
+2021-06-04 17:21:38.551  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/img/**'] with []
+2021-06-04 17:21:38.552  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/fonts/**'] with []
+2021-06-04 17:21:38.552  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/repair/master-info/updatePassword'] with []
+2021-06-04 17:21:38.552  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/repair/master-info/insertMaster'] with []
+2021-06-04 17:21:38.552  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/favicon.ico'] with []
+2021-06-04 17:21:38.552  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/doc.html'] with []
+2021-06-04 17:21:38.552  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/stu/**'] with []
+2021-06-04 17:21:38.552  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/mas/**'] with []
+2021-06-04 17:21:38.552  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/webjars/**'] with []
+2021-06-04 17:21:38.552  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-resources/**'] with []
+2021-06-04 17:21:38.552  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v2/api-docs/**'] with []
+2021-06-04 17:21:38.552  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/captcha'] with []
+2021-06-04 17:21:38.572  INFO 20336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3df04fa1, org.springframework.security.web.context.SecurityContextPersistenceFilter@237aa0c7, org.springframework.security.web.header.HeaderWriterFilter@7fb82f73, org.springframework.web.filter.CorsFilter@5c25daad, org.springframework.security.web.authentication.logout.LogoutFilter@7eefaca0, com.sanyau.repair.config.security.JwtAuthenticationTokenFilter@1cde374, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b400bd0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b1d1a5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6fdc2db6, org.springframework.security.web.session.SessionManagementFilter@6ffbf0ac, org.springframework.security.web.access.ExceptionTranslationFilter@7ac1b6c0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32e7b78d]
+2021-06-04 17:21:38.940  INFO 20336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8443 (https) 8081 (http) with context path ''
+2021-06-04 17:21:38.941  INFO 20336 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-06-04 17:21:38.957  INFO 20336 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-06-04 17:21:38.982  INFO 20336 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-06-04 17:21:39.157  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: showInfoUsingPOST_1
+2021-06-04 17:21:39.160  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: ShowMaterialUsingPOST_1
+2021-06-04 17:21:39.163  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertInfoUsingPOST_1
+2021-06-04 17:21:39.189  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: showInfoUsingPOST_2
+2021-06-04 17:21:39.191  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertInfoUsingPOST_2
+2021-06-04 17:21:39.192  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: showInfoUsingPOST_3
+2021-06-04 17:21:39.194  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertOrderUsingPOST_1
+2021-06-04 17:21:39.194  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: showOrderUsingPOST_1
+2021-06-04 17:21:39.199  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteCommunityUsingPOST_1
+2021-06-04 17:21:39.208  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updatePasswordUsingPOST_1
+2021-06-04 17:21:39.236  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectDetailsUsingPOST_1
+2021-06-04 17:21:39.237  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: showCommunityUsingPOST_1
+2021-06-04 17:21:39.237  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: showTypeUsingPOST_1
+2021-06-04 17:21:39.238  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateOrderStateUsingPOST_1
+2021-06-04 17:21:39.239  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadFileUsingPOST_1
+2021-06-04 17:21:39.250  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByIdUsingPOST_1
+2021-06-04 17:21:39.254  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByIdUsingPOST_2
+2021-06-04 17:21:39.259  INFO 20336 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteReturnOrdersUsingPOST_1
+2021-06-04 17:21:39.280  INFO 20336 --- [main] com.sanyau.repair.RepairApplication      : Started RepairApplication in 5.952 seconds (JVM running for 6.951)

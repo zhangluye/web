@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ChaoSuan-X:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ChaoSuan_X_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ChaoSuan-X/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ChaoSuan-X" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

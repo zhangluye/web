@@ -1,0 +1,18 @@
+#nr_daohang{
+    border-bottom: solid 1px rgb(200,200,200);
+}
+#liebiao p{
+    font-size: 17px;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    line-height: 30px;
+    margin-left: 5px;
+}
+#liebiao hr{
+    border : 1px dashed rgb(200,200,200);
+}
+
+.fy_anniu{
+    cursor:pointer;
+}
